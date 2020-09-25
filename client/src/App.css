@@ -1,38 +1,85 @@
+body{
+	background-color: rgb(255, 242, 226);
+	padding: 10px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.stackoverflow_logo{
+	height: 25vh;
+	width: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#header__text{
+	font-family: 'Roboto', sans-serif;
+	font-size: 22px;
+	color: rgb(2, 2, 12);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#header__text span{
+	font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.question__input{
+	resize: none;
+	width: 40vw;
+	height: 25vh;
+	padding: 10px;
+	border: 2px solid rgb(255, 169, 10);
+	border-radius: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.question__input:focus{
+    outline: none !important;
+}
+
+#submit{
+	width: 40vw;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 2vh;
+	cursor: pointer; 
+	background-color: white;
+	border: 2px solid rgb(255, 197, 91);
+	color: rgb(250, 182, 56);
+	font-weight: 600;
+	font-size: 18px;
+}
+
+#submit:focus{
+    outline: none !important;
+}
+
+#submit:hover{
+	transition: all 0.2s;
+	cursor: pointer; 
+	color: rgb(255, 247, 239);
+	background-color: rgb(255, 169, 10);
+	border: 2px solid rgb(255, 169, 10);
+}
+
+.stackoverflow__tag__container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 2vh;
+	
+}
+
+.stackoverflow__tag{
+	margin-left: 1vw;
+	background-color: grey;
+	padding: 12px;
+	color: white;
+	border-radius: 16px;
+	text-transform: capitalize;
+	cursor: default;
+}
+
+.stackoverflow__tag:hover{
+	background-color: rgb(85, 84, 84);
 }
