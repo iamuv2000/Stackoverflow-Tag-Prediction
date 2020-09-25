@@ -24,3 +24,4 @@ def getTags(question):
 	question = tfidf.transform(question)
 	tags = multilabel.inverse_transform(tagPredictorModel.predict(question))
 	print(tags)
+	return tags
