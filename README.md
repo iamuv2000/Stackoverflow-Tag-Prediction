@@ -2,7 +2,7 @@
 
 A Machine learning based project to predict the appropriate tags for any question that you intend to ask on stackoverflow using a **Multilable Text classification algorithm**.
 
-For more information on the model click <a href="Model.md">here</a>
+For more information on the model click <a href="./Model.md">here</a>
 
 <hr />
 
