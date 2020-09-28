@@ -2,9 +2,8 @@
 
 A Machine learning based project to predict the appropriate tags for any question that you intend to ask on stackoverflow using a **Multilable Text classification algorithm**.
 
-For more information on the model click <a href="./Model.md">here</a>
+For more information on the model click [here](Model.md)
 
-<hr />
 
 ## Project Setup
 
@@ -23,7 +22,6 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
-<hr />
 
 ## Using the API
 Endpoint: **/api/getRecommendedTags**
