@@ -68,8 +68,9 @@ Size of intersection of the predicted labels and the true labels divided by the 
 <hr/>
 
 ## Python Function wiki
-ast -> literal evaluation (Converts the string into list data)
-lambda function-> iterates over each row and performs a specific operation
+**ast** -> literal evaluation (Converts the string into list data)
+<br>
+**lambda function**-> iterates over each row and performs a specific operation
 
 
 
